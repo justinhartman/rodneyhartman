@@ -1,5 +1,5 @@
-The Show Must Go On by Rodney Hartman 
-Copyright (c) 2010, Rodney Hartman and the Hartman family.
+_The Show Must Go On_ by Rodney Hartman   
+Copyright (c) 2010, Rodney Hartman and the Hartman family. All Rights Reserved.
 
 The collection of the content and other data in this repository, or website, 
 remains the property of the owner. You are prohibited from any unauthorised
