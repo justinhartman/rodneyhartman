@@ -1,0 +1,23 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import { Header, Footer, ThemeProvider } from 'astro-pure/components/basic';
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description } = Astro.props as Props;
+---
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+  <body>
+    <ThemeProvider>
+      <Header />
+      <main>
+        <slot />
+      </main>
+      <Footer />
+    </ThemeProvider>
+  </body>
+</html>
